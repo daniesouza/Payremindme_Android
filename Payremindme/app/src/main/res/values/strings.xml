@@ -1,7 +1,7 @@
 <resources>
-     <string name="app_name">Payremind-me</string>
-     <string name="txt_email">User Name</string>
-     <string name="txt_senha">Password</string>
-     <string name="txt_logon">Logon</string>
-     <string name="botaoLogin">sing in</string>
+    <string name="app_name">Payremind-me</string>
+    <string name="txt_email">User Name</string>
+    <string name="txt_senha">Password</string>
+    <string name="txt_logon">Logon</string>
+    <string name="botaoLogin">sing in</string>
 </resources>
