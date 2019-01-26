@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Payremind-me</string>
+    <string name="txt_email">Usuário</string>
+    <string name="txt_senha">Senha</string>
+    <string name="txt_logon">Logon</string>
+    <string name="botaoLogin">Entre</string>
+    <string name="txt_menu">Menu</string>
+    <string name="txt_sobre">Sobre</string>
+    <string name="txt_cadastro">Cadastro de pagamento</string>
+</resources>

@@ -14,4 +14,12 @@
         <item name="android:windowFullscreen">true</item>
     </style>
 
+    <style name="titulo">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">30sp</item>
+
+    </style>
+
 </resources>
