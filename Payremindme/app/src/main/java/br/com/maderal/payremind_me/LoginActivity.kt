@@ -23,6 +23,7 @@ import android.widget.TextView
 
 import java.util.ArrayList
 import android.Manifest.permission.READ_CONTACTS
+import android.content.Intent
 import android.widget.Toast
 
 import kotlinx.android.synthetic.main.activity_login.*
@@ -48,6 +49,11 @@ class LoginActivity : AppCompatActivity() {
 
         if (login == "FIAP" && senha == "123") {
 
+            val intent = Intent(this, MenuActivity::class.java)
+
+            intent.putExtra("usuario", login)
+            startActivity(intent)
+              finish()
 
         } else {
 

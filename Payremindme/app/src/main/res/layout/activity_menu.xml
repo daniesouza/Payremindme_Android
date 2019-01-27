@@ -16,118 +16,129 @@
             android:layout_marginTop="10dp"
             android:text="@string/txt_menu"  />
 
-    <android.support.design.widget.TextInputLayout
+    <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:gravity="center"
-            android:orientation="horizontal" >
+            android:layout_height="match_parent">
 
-        <ImageView
-                android:layout_width="77dp"
-
-                android:layout_height="68dp" app:srcCompat="@drawable/ic_account_circle_black_24dp"
-                tools:layout_editor_absoluteY="104dp" tools:layout_editor_absoluteX="113dp"
-                android:id="@+id/imageView"/>
-        <TextView
-                android:id="@+id/tvIMCDescricao"
-                android:layout_width="wrap_content"
+        <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                tools:text="@string/txt_pessoas"
-                app:layout_constraintEnd_toEndOf="parent"
-                android:textSize="23dp"/>
+                android:orientation="vertical">
 
-    </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
 
-    <android.support.design.widget.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:layout_marginTop="8dp"
-            android:orientation="horizontal" >
+                <ImageView
+                        android:layout_width="77dp"
 
-        <ImageView
-                android:layout_width="77dp"
+                        android:layout_height="68dp" app:srcCompat="@drawable/ic_account_circle_black_24dp"
+                        tools:layout_editor_absoluteY="104dp" tools:layout_editor_absoluteX="113dp"
+                        android:id="@+id/imageView"/>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_pessoas"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:textSize="23dp"/>
 
-                android:layout_height="68dp" app:srcCompat="@drawable/ic_create_new_folder_black_48dp"
-                tools:layout_editor_absoluteY="104dp" tools:layout_editor_absoluteX="113dp"
-                android:id="@+id/imageView2"/>
-        <TextView
-                android:id="@+id/tvIMCDescricao2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                tools:text="@string/txt_cadastro"
-                app:layout_constraintEnd_toEndOf="parent"
-                android:textSize="23dp"/>
+            </android.support.design.widget.TextInputLayout>
 
-    </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal" >
 
-    <android.support.design.widget.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:layout_marginTop="8dp"
-            android:orientation="horizontal" >
+                <ImageView
+                        android:layout_width="77dp"
 
-        <ImageView
-                android:layout_width="77dp"
+                        android:layout_height="68dp" app:srcCompat="@drawable/ic_create_new_folder_black_48dp"
+                        tools:layout_editor_absoluteY="104dp" tools:layout_editor_absoluteX="113dp"
+                        android:id="@+id/imageView2"/>
+                <TextView
+                        android:id="@+id/tvIMCDescricao2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_cadastro"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:textSize="23dp"/>
 
-                android:layout_height="68dp" app:srcCompat="@drawable/ic_border_color_black_48dp"
-                tools:layout_editor_absoluteY="104dp" tools:layout_editor_absoluteX="113dp"
-                android:id="@+id/imageView5"/>
-        <TextView
-                android:id="@+id/tvIMCDescricao5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                tools:text="@string/txt_editt"
-                app:layout_constraintEnd_toEndOf="parent"
-                android:textSize="23dp"/>
+            </android.support.design.widget.TextInputLayout>
 
-    </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal" >
 
-    <android.support.design.widget.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:layout_marginTop="8dp"
-            android:orientation="horizontal" >
+                <ImageView
+                        android:layout_width="77dp"
 
-        <ImageView
-                android:layout_width="77dp"
+                        android:layout_height="68dp" app:srcCompat="@drawable/ic_border_color_black_48dp"
+                        tools:layout_editor_absoluteY="104dp" tools:layout_editor_absoluteX="113dp"
+                        android:id="@+id/imageView5"/>
+                <TextView
+                        android:id="@+id/tvIMCDescricao5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_editt"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:textSize="23dp"/>
 
-                android:layout_height="68dp" app:srcCompat="@drawable/ic_power_settings_new_black_48dp"
-                tools:layout_editor_absoluteY="104dp" tools:layout_editor_absoluteX="113dp"
-                android:id="@+id/imageView3"/>
-        <TextView
-                android:id="@+id/tvIMCDescricao3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                tools:text="@string/txt_logout"
-                app:layout_constraintEnd_toEndOf="parent"
-                android:textSize="23dp"/>
+            </android.support.design.widget.TextInputLayout>
 
-    </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal" >
 
-    <android.support.design.widget.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:gravity="center"
-            android:orientation="horizontal" >
+                <ImageView
+                        android:layout_width="77dp"
 
-        <ImageView
-                android:layout_width="77dp"
+                        android:layout_height="68dp" app:srcCompat="@drawable/ic_power_settings_new_black_48dp"
+                        tools:layout_editor_absoluteY="104dp" tools:layout_editor_absoluteX="113dp"
+                        android:id="@+id/imageView3"/>
+                <TextView
+                        android:id="@+id/tvIMCDescricao3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_logout"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:textSize="23dp"/>
 
-                android:layout_height="68dp" app:srcCompat="@drawable/ic_mouse_black_36dp"
-                tools:layout_editor_absoluteY="104dp" tools:layout_editor_absoluteX="113dp"
-                android:id="@+id/imageView4"/>
-        <TextView
-                android:id="@+id/tvIMCDescricao4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                tools:text="@string/txt_sobre"
-                app:layout_constraintEnd_toEndOf="parent"
-                android:textSize="23dp"/>
+            </android.support.design.widget.TextInputLayout>
 
-    </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                <ImageView
+                        android:layout_width="77dp"
+
+                        android:layout_height="68dp" app:srcCompat="@drawable/ic_mouse_black_36dp"
+                        tools:layout_editor_absoluteY="104dp" tools:layout_editor_absoluteX="113dp"
+                        android:id="@+id/imageView4"/>
+
+                <TextView
+                        android:id="@+id/tvIMCDescricao4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_sobre"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:textSize="23dp"/>
+
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>
