@@ -10,7 +10,13 @@
               android:paddingRight="@dimen/activity_horizontal_margin"
               android:paddingTop="@dimen/activity_padding_top"
               tools:context=".LoginActivity">
-
+    <TextView
+            android:id="@+id/tvLogin"
+            style="@style/titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_logon"
+            android:textAllCaps="true"  />
 
     <ScrollView
             android:id="@+id/login_form"
@@ -23,13 +29,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-            <TextView
-                    android:id="@+id/tvLogin"
-                    style="@style/titulo"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/txt_logon"
-                    app:fontFamily="sans-serif-condensed-medium" android:textAllCaps="true"  />
+
 
             <android.support.design.widget.TextInputLayout
                     android:layout_width="match_parent"

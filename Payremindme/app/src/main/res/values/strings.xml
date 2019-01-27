@@ -6,6 +6,7 @@
     <string name="botaoLogin">Sing in</string>
     <string name="txt_sobre">About</string>
     <string name="txt_menu">Menu</string>
-    <string name="txt_cadastro">payment record</string>
-
+    <string name="txt_cadastro">Payment record</string>
+    <string name="txt_pessoas">People</string>
+    <string name="txt_logout">Logout</string>
 </resources>

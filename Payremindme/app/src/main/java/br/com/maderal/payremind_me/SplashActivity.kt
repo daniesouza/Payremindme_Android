@@ -8,14 +8,25 @@ import android.os.Handler
 
 class SplashActivity : AppCompatActivity() {
 
+    private val SPLASH_TIME = 4000;
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
 
-        carrega()
+
+        Handler().postDelayed({
+
+            val mySuperIntent = Intent(this@SplashActivity, LoginActivity::class.java)
+            startActivity(mySuperIntent)
+
+            finish()
+        }, SPLASH_TIME.toLong())
+
+     //   carrega()
     }
 
-    private fun carrega() {
+    /*private fun carrega() {
         Handler().postDelayed({
             proximaTela()
         }, 3000L)
@@ -26,5 +37,5 @@ class SplashActivity : AppCompatActivity() {
             LoginActivity::class.java)
         startActivity(proximaTelaIntent)
         finish()
-    }
+    }*/
 }

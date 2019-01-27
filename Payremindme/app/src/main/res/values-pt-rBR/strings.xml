@@ -8,4 +8,6 @@
     <string name="txt_menu">Menu</string>
     <string name="txt_sobre">Sobre</string>
     <string name="txt_cadastro">Cadastro de pagamento</string>
+    <string name="txt_pessoas">Pessoa</string>
+    <string name="txt_logout">Logout</string>
 </resources>
