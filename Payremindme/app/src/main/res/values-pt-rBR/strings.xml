@@ -10,4 +10,5 @@
     <string name="txt_cadastro">Cadastro de pagamento</string>
     <string name="txt_pessoas">Pessoa</string>
     <string name="txt_logout">Logout</string>
+    <string name="txt_editt">Editar</string>
 </resources>
