@@ -10,4 +10,45 @@
     <string name="txt_pessoas">People</string>
     <string name="txt_logout">Logout</string>
     <string name="txt_editt">Edit</string>
+    <string name="txt_name">Name</string>
+    <string name="txt_active">Active</string>
+    <string name="txt_address">Address</string>
+    <string name="txt_number">Number</string>
+    <string name="txt_complement">Complement</string>
+    <string name="txt_neighborhood">Neighborhood</string>
+    <string name="txt_zip_code">Zip code</string>
+    <string name="txt_city">City</string>
+    <string name="txt_state">State</string>
+
+
+    <string-array name="arry_estados">
+        <item>Acre</item>
+        <item>Alagoas</item>
+        <item>Amapá</item>
+        <item>Amazonas</item>
+        <item>Bahia</item>
+        <item>Ceará</item>
+        <item>Distrito Federal</item>
+        <item>Espírito Santo</item>
+        <item>Goiás</item>
+        <item>Maranhão</item>
+        <item>Mato Grosso</item>
+        <item>Mato Grosso do Sul</item>
+        <item>Minas Gerais</item>
+        <item>Pará</item>
+        <item>Paraíba</item>
+        <item>Paraná</item>
+        <item>Pernambuco</item>
+        <item>Piauí</item>
+        <item>Rio de Janeiro</item>
+        <item>Rio Grande do Norte</item>
+        <item>Rio Grande do Sul</item>
+        <item>Rondônia</item>
+        <item>Roraima</item>
+        <item>Santa Catarina</item>
+        <item>São Paulo</item>
+        <item>Sergipe</item>
+        <item>Tocantins</item>
+    </string-array>
+
 </resources>

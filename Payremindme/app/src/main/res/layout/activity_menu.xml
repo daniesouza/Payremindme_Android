@@ -13,7 +13,6 @@
             style="@style/titulo"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="10dp"
             android:text="@string/txt_menu"  />
 
     <ScrollView
@@ -28,13 +27,12 @@
             <android.support.design.widget.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
+                    android:layout_marginTop="@dimen/activity_padding_top"
                     android:gravity="center"
                     android:orientation="horizontal" >
 
-                <ImageView
+                <ImageButton
                         android:layout_width="77dp"
-
                         android:layout_height="68dp" app:srcCompat="@drawable/ic_account_circle_black_24dp"
                         tools:layout_editor_absoluteY="104dp" tools:layout_editor_absoluteX="113dp"
                         android:id="@+id/imageView"/>
@@ -51,12 +49,12 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:layout_marginTop="8dp"
+                    android:layout_marginTop="@dimen/activity_padding_top"
                     android:orientation="horizontal" >
 
-                <ImageView
+                <ImageButton
                         android:layout_width="77dp"
-
+                        android:onClick="cadastro"
                         android:layout_height="68dp" app:srcCompat="@drawable/ic_create_new_folder_black_48dp"
                         tools:layout_editor_absoluteY="104dp" tools:layout_editor_absoluteX="113dp"
                         android:id="@+id/imageView2"/>
@@ -74,10 +72,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:layout_marginTop="8dp"
+                    android:layout_marginTop="@dimen/activity_padding_top"
                     android:orientation="horizontal" >
 
-                <ImageView
+                <ImageButton
                         android:layout_width="77dp"
 
                         android:layout_height="68dp" app:srcCompat="@drawable/ic_border_color_black_48dp"
@@ -97,12 +95,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:layout_marginTop="8dp"
+                    android:layout_marginTop="@dimen/activity_padding_top"
                     android:orientation="horizontal" >
 
-                <ImageView
+                <ImageButton
                         android:layout_width="77dp"
-
                         android:layout_height="68dp" app:srcCompat="@drawable/ic_power_settings_new_black_48dp"
                         tools:layout_editor_absoluteY="104dp" tools:layout_editor_absoluteX="113dp"
                         android:id="@+id/imageView3"/>
@@ -119,11 +116,11 @@
             <android.support.design.widget.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
+                    android:layout_marginTop="@dimen/activity_padding_top"
                     android:gravity="center"
                     android:orientation="horizontal" >
 
-                <ImageView
+                <ImageButton
                         android:layout_width="77dp"
 
                         android:layout_height="68dp" app:srcCompat="@drawable/ic_mouse_black_36dp"

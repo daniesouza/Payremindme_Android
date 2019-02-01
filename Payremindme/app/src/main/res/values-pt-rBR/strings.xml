@@ -11,4 +11,13 @@
     <string name="txt_pessoas">Pessoa</string>
     <string name="txt_logout">Logout</string>
     <string name="txt_editt">Editar</string>
+    <string name="txt_name">Nome</string>
+    <string name="txt_address">Endereço</string>
+    <string name="txt_number">Número</string>
+    <string name="txt_complement">Complemento</string>
+    <string name="txt_zip_code">CEP</string>
+    <string name="txt_city">Cidade</string>
+    <string name="txt_state">Estado</string>
+    <string name="txt_active">Ativo</string>
+    <string name="txt_neighborhood">Bairro</string>
 </resources>

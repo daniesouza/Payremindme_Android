@@ -5,10 +5,6 @@
               android:layout_height="match_parent"
               android:gravity="center_horizontal"
               android:orientation="vertical"
-              android:paddingBottom="@dimen/activity_vertical_margin"
-              android:paddingLeft="@dimen/activity_horizontal_margin"
-              android:paddingRight="@dimen/activity_horizontal_margin"
-              android:paddingTop="@dimen/activity_padding_top"
               tools:context=".LoginActivity">
     <TextView
             android:id="@+id/tvLogin"
@@ -19,8 +15,7 @@
             android:textAllCaps="true"  />
 
     <ScrollView
-            android:id="@+id/login_form"
-            android:layout_width="match_parent"
+             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
         <LinearLayout
@@ -35,8 +30,11 @@
 
                 <EditText
                         android:id="@+id/userName"
+                        style="@style/editText"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+
+
                         android:hint="@string/txt_email"
                         android:inputType="textEmailAddress"/>
 
@@ -48,6 +46,7 @@
 
                 <EditText
                         android:id="@+id/password"
+                        style="@style/editText"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/txt_senha"
@@ -60,6 +59,8 @@
                     style="?android:textAppearanceInverse"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
                     android:layout_marginTop="16dp"
                     android:text="@string/botaoLogin"
                     android:onClick="logar"
